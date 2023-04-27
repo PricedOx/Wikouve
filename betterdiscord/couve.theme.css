@@ -70,4 +70,13 @@
   /* Other stuff */
   --textcolor: #000;
   --epicshadow1: #0003;
+  #uid_5592 circle {
+  display: none; /* Hide the original circle */
+}
+
+#uid_5592 rect {
+  fill: black;
+  rx: 9.2; /* Set the corner radius to 10% of half the width of the rectangle */
+}
+
 }
